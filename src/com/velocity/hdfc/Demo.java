@@ -10,7 +10,6 @@ public class Demo {
 		al.add("vishal");
 		al.add(null);
 		al.add(null);
-		System.out.println(al);
 
 	}
 
