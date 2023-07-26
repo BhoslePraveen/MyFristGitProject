@@ -14,6 +14,7 @@ public class Demo {
 		stateMap.put("Delhi", "1");
 		stateMap.put("Karnataka", "2");
 		stateMap.put("Bhopal", "3");
+		stateMap.put("Manipur", "4");
 		return stateMap;
 	}
 
