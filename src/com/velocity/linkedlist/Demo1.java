@@ -12,6 +12,8 @@ public class Demo1 {
 		numberList.add(15);
 		numberList.addFirst(11);
 		numberList.add(20);
+		numberList.add(30);
+		numberList.add(50);
 		numberList.removeLast();
 		numberList.addFirst(25);
 
