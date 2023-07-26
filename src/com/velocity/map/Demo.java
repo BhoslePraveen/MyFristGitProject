@@ -13,6 +13,7 @@ public class Demo {
 		HashMap<String, String> stateMap = new HashMap<>();
 		stateMap.put("Delhi", "1");
 		stateMap.put("Karnataka", "2");
+		stateMap.put("Bhopal", "3");
 		return stateMap;
 	}
 
