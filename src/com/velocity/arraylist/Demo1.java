@@ -20,6 +20,7 @@ public class Demo1 {
 
 		list1.addAll(list2);
 
+		System.out.println("Demo for arrayList");
 		// System.out.println(list1);
 
 //		for (int d : list1) {
