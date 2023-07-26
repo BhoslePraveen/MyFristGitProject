@@ -22,7 +22,11 @@ public class Example {
 		list.add(new Employee(103, "Sohan", "NETWORK"));
 		list.add(new Employee(102, "Rohan", "NETWORK"));
 		System.out.println("Hello All ");
-
+        System.out.println("welcome all ");
+		Collections.sort(list, new NameSorting());
+		System.out.println(list);
+		Collections.sort(list, new SalarySorting());
+		System.out.println(list);
 	}
 
 }
