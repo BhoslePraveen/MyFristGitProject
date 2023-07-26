@@ -1,17 +1,14 @@
 package com.velocity.compare;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 
 public class Demo1 {
 
 	public static void main(String[] args) {
-		List<Integer> list = new ArrayList<>();
-		Integer[] arr = { 1, 8, 9, 5, 6 };
-		list = Arrays.asList(arr);
-		list.add(10);
-		System.out.println(list);
+
+		HashMap<Integer, String> map = new HashMap<>();
+		map.put(12, "Praveen");
+		map.put(13, "Vindod");
 
 	}
 
