@@ -14,6 +14,8 @@ public class Demo1 {
 		numberList.add(18);
 		numberList.add(12);
 		numberList.add(20);
+		numberList.add(30);
+		numberList.add(50);
 		numberList.removeLast();
 
 		ListIterator<Integer> itr = numberList.listIterator();
